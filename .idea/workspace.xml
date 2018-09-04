@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91acf17d-9c2a-45a5-9395-465097e13256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,6 +27,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="4" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -37,18 +35,21 @@
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
           <entry key="JAVA" value="4" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="5034" />
+          <entry key="java" value="5078" />
+          <entry key="md" value="279" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5034" />
+          <entry key="JAVA" value="5078" />
+          <entry key="Markdown" value="279" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="81" />
         </counts>
@@ -92,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#AppTest#0" expanded="true" />
@@ -114,9 +115,23 @@
                 <element signature="e#1203#1223#1" expanded="true" />
                 <element signature="e#1234#1251#1" expanded="true" />
                 <element signature="e#1256#1319#1" expanded="true" />
-                <element signature="e#1407#1435#0" expanded="true" />
-                <element signature="e#1407#1435#0" expanded="true" />
+                <element signature="e#1407#1438#0" expanded="true" />
+                <element signature="e#1407#1438#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -166,8 +181,9 @@
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -286,53 +302,6 @@
             </path>
             <path>
               <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="barrymoore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="barrymoore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -440,12 +409,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.09.03 at 22h 33m 03s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.03 at 22h 34m 15s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2018.09.03 at 22h 36m 24s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -470,6 +433,12 @@
     <history-entry file="AppTest - 2018.09.03 at 23h 09m 31s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2018.09.03 at 23h 14m 05s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.03 at 23h 14m 46s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -478,10 +447,10 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21306472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21306472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Amazon EC2" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Code Review" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -514,16 +483,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="Primes.isPrime(9)" language="JAVA" />
@@ -630,7 +589,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#AppTest#0" expanded="true" />
@@ -648,9 +607,21 @@
             <element signature="e#1203#1223#1" expanded="true" />
             <element signature="e#1234#1251#1" expanded="true" />
             <element signature="e#1256#1319#1" expanded="true" />
-            <element signature="e#1407#1435#0" expanded="true" />
-            <element signature="e#1407#1435#0" expanded="true" />
+            <element signature="e#1407#1438#0" expanded="true" />
+            <element signature="e#1407#1438#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
