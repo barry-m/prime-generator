@@ -54,4 +54,13 @@ public class AppTest {
         Assert.assertTrue(primes.containsAll(Arrays.asList(7901, 7907, 7919)));
     }
 
+    @Test
+    public void IsPrimeBasicTrue() {
+        Assert.assertTrue(pm.isPrime(7));
+    }
+
+    @Test
+    public void IsPrimeBasicFalse() {
+        Assert.assertFalse(pm.isPrime(9));
+    }
 }
