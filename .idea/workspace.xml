@@ -21,24 +21,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
+          <entry key="Git file" value="1" />
           <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4703" />
+          <entry key="java" value="4735" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4703" />
+          <entry key="JAVA" value="4735" />
           <entry key="XML" value="81" />
         </counts>
       </usages-collector>
@@ -86,10 +88,10 @@
               <folding>
                 <element signature="docComment;class#App#0" expanded="true" />
                 <element signature="e#276#299#1" expanded="true" />
-                <element signature="e#494#593#0" expanded="true" />
-                <element signature="e#494#593#0" expanded="true" />
-                <element signature="e#594#686#0" expanded="true" />
-                <element signature="e#594#686#0" expanded="true" />
+                <element signature="e#501#600#0" expanded="true" />
+                <element signature="e#501#600#0" expanded="true" />
+                <element signature="e#601#693#0" expanded="true" />
+                <element signature="e#601#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,13 +100,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#355#410#0" expanded="true" />
-                <element signature="e#264#530#0" expanded="true" />
-                <element signature="e#264#530#0" expanded="true" />
+                <element signature="e#271#417#0" expanded="true" />
+                <element signature="e#271#417#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+            <state relative-caret-position="246">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#329#349#1" expanded="true" />
@@ -126,8 +127,8 @@
                 <element signature="e#871#890#1" expanded="true" />
                 <element signature="e#906#924#1" expanded="true" />
                 <element signature="e#926#982#1" expanded="true" />
-                <element signature="e#1083#1111#0" expanded="true" />
-                <element signature="e#1083#1111#0" expanded="true" />
+                <element signature="e#1113#1141#0" expanded="true" />
+                <element signature="e#1113#1141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +142,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -163,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -266,6 +271,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -474,17 +480,17 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21306472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Amazon EC2" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Code Review" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.2625523" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39958158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,31 +586,33 @@
           <folding>
             <element signature="docComment;class#App#0" expanded="true" />
             <element signature="e#276#299#1" expanded="true" />
-            <element signature="e#494#593#0" expanded="true" />
-            <element signature="e#494#593#0" expanded="true" />
-            <element signature="e#594#686#0" expanded="true" />
-            <element signature="e#594#686#0" expanded="true" />
+            <element signature="e#501#600#0" expanded="true" />
+            <element signature="e#501#600#0" expanded="true" />
+            <element signature="e#601#693#0" expanded="true" />
+            <element signature="e#601#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#355#410#0" expanded="true" />
-            <element signature="e#264#530#0" expanded="true" />
-            <element signature="e#264#530#0" expanded="true" />
+            <element signature="e#271#417#0" expanded="true" />
+            <element signature="e#271#417#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+        <state relative-caret-position="246">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#329#349#1" expanded="true" />
@@ -616,8 +624,8 @@
             <element signature="e#871#890#1" expanded="true" />
             <element signature="e#906#924#1" expanded="true" />
             <element signature="e#926#982#1" expanded="true" />
-            <element signature="e#1083#1111#0" expanded="true" />
-            <element signature="e#1083#1111#0" expanded="true" />
+            <element signature="e#1113#1141#0" expanded="true" />
+            <element signature="e#1113#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
