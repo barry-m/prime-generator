@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91acf17d-9c2a-45a5-9395-465097e13256" name="Default Changelist" comment="" />
+    <list default="true" id="91acf17d-9c2a-45a5-9395-465097e13256" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,25 +29,27 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4739" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="5034" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4739" />
+          <entry key="JAVA" value="5034" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="81" />
         </counts>
       </usages-collector>
@@ -53,59 +62,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-              <folding>
-                <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#1;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#2;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#3;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#5;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#6;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="docComment;class#App#0" expanded="true" />
                 <element signature="e#276#299#1" expanded="true" />
-                <element signature="e#501#600#0" expanded="true" />
-                <element signature="e#501#600#0" expanded="true" />
-                <element signature="e#601#693#0" expanded="true" />
-                <element signature="e#601#693#0" expanded="true" />
+                <element signature="e#514#613#0" expanded="true" />
+                <element signature="e#514#613#0" expanded="true" />
+                <element signature="e#614#706#0" expanded="true" />
+                <element signature="e#614#706#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#271#417#0" expanded="true" />
-                <element signature="e#271#417#0" expanded="true" />
+                <element signature="e#305#451#0" expanded="true" />
+                <element signature="e#305#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,10 +95,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="426">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AppTest#0" expanded="true" />
                 <element signature="e#329#349#1" expanded="true" />
                 <element signature="e#357#375#1" expanded="true" />
                 <element signature="e#351#376#1" expanded="true" />
@@ -127,9 +109,23 @@
                 <element signature="e#871#890#1" expanded="true" />
                 <element signature="e#906#924#1" expanded="true" />
                 <element signature="e#926#982#1" expanded="true" />
-                <element signature="e#1113#1141#0" expanded="true" />
-                <element signature="e#1113#1141#0" expanded="true" />
+                <element signature="e#1108#1136#0" expanded="true" />
+                <element signature="e#1108#1136#0" expanded="true" />
+                <element signature="e#1203#1223#1" expanded="true" />
+                <element signature="e#1234#1251#1" expanded="true" />
+                <element signature="e#1256#1319#1" expanded="true" />
+                <element signature="e#1407#1435#0" expanded="true" />
+                <element signature="e#1407#1435#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -140,6 +136,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -164,10 +161,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" />
       </list>
     </option>
   </component>
@@ -440,12 +440,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.09.03 at 22h 31m 55s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.03 at 22h 32m 27s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2018.09.03 at 22h 33m 03s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -470,9 +464,16 @@
     <history-entry file="AppTest - 2018.09.03 at 22h 39m 12s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2018.09.03 at 23h 04m 27s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.03 at 23h 09m 31s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -513,6 +514,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="Primes.isPrime(9)" language="JAVA" />
@@ -546,9 +557,19 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="600">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
             <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
@@ -572,49 +593,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/base/Preconditions.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeNumberGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#451#0" expanded="true" />
+            <element signature="e#305#451#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="docComment;class#App#0" expanded="true" />
             <element signature="e#276#299#1" expanded="true" />
-            <element signature="e#501#600#0" expanded="true" />
-            <element signature="e#501#600#0" expanded="true" />
-            <element signature="e#601#693#0" expanded="true" />
-            <element signature="e#601#693#0" expanded="true" />
+            <element signature="e#514#613#0" expanded="true" />
+            <element signature="e#514#613#0" expanded="true" />
+            <element signature="e#614#706#0" expanded="true" />
+            <element signature="e#614#706#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#417#0" expanded="true" />
-            <element signature="e#271#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="426">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AppTest#0" expanded="true" />
             <element signature="e#329#349#1" expanded="true" />
             <element signature="e#357#375#1" expanded="true" />
             <element signature="e#351#376#1" expanded="true" />
@@ -624,8 +643,13 @@
             <element signature="e#871#890#1" expanded="true" />
             <element signature="e#906#924#1" expanded="true" />
             <element signature="e#926#982#1" expanded="true" />
-            <element signature="e#1113#1141#0" expanded="true" />
-            <element signature="e#1113#1141#0" expanded="true" />
+            <element signature="e#1108#1136#0" expanded="true" />
+            <element signature="e#1108#1136#0" expanded="true" />
+            <element signature="e#1203#1223#1" expanded="true" />
+            <element signature="e#1234#1251#1" expanded="true" />
+            <element signature="e#1256#1319#1" expanded="true" />
+            <element signature="e#1407#1435#0" expanded="true" />
+            <element signature="e#1407#1435#0" expanded="true" />
           </folding>
         </state>
       </provider>

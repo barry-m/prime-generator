@@ -9,10 +9,10 @@ import com.google.common.base.Preconditions;
  */
 public class App {
     public static void main(String[] args) {
-        PrimeGenerator pm = new PrimeGenerator();
+        PrimeNumberGeneratorImpl pm = new PrimeNumberGeneratorImpl();
         try {
             App.validateArguments(args);
-            pm.getPrimeNumbers(Integer.valueOf(args[0]), Integer.valueOf(args[1]))
+            pm.generate(Integer.valueOf(args[0]), Integer.valueOf(args[1]))
                     .forEach(p -> System.out.println(p));
 
         } catch (IllegalArgumentException e) {
