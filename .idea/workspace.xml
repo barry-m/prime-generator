@@ -34,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4735" />
+          <entry key="java" value="4739" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4735" />
+          <entry key="JAVA" value="4739" />
           <entry key="XML" value="81" />
         </counts>
       </usages-collector>
@@ -115,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#329#349#1" expanded="true" />
@@ -166,8 +166,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/barrymoore/PrimeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java" />
       </list>
     </option>
   </component>
@@ -612,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/io/barrymoore/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#329#349#1" expanded="true" />
