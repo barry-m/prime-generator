@@ -13,6 +13,7 @@ import java.util.function.Predicate;
  */
 public class App {
     static Map<String, Function> functions = new HashMap();
+
     static {
         functions.put("-f1", PrimeTestPredicates.Function1);
         functions.put("-f2", PrimeTestPredicates.Function2);
@@ -29,7 +30,7 @@ public class App {
             app.validateArguments(params);
             if (app.NamedFunction.test(params)) {
                 String f = params.stream().filter(s -> s.startsWith("-f")).findFirst().orElse(null);
-                if ( null != f) {
+                if (null != f) {
                     Function func = functions.get(f);
                     System.out.println("Using function " + func.getClass().getName());
                     pm = new PrimeNumberGeneratorImpl(func);
@@ -39,17 +40,15 @@ public class App {
             }
             int int1 = Integer.valueOf(params.get(0));
             int int2 = Integer.valueOf(params.get(1));
-            pm.generate(int1, int2)
-                    .forEach(p -> System.out.println(p));
-            System.out.println("Done");
+
+            pm.generate(int1, int2).forEach(p -> System.out.println(p));
 
         } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-            System.out.println();
+            System.err.println(e.getMessage());
             printHelp();
             System.exit(1);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
             System.exit(1);
         }
     }
@@ -92,8 +91,8 @@ public class App {
     Predicate NamedFunction = new Predicate<List<String>>() {
         @Override
         public boolean test(List<String> args) {
-            String str =  args.stream()
-                 .filter(s -> s.startsWith("-f"))
+            String str = args.stream()
+                    .filter(s -> s.startsWith("-f"))
                     .findFirst().orElse(null);
             return null != str;
         }
