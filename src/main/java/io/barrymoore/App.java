@@ -30,13 +30,16 @@ public class App {
             if (app.NamedFunction.test(params)) {
                 String f = params.stream().filter(s -> s.startsWith("-f")).findFirst().orElse(null);
                 if ( null != f) {
-                    pm = new PrimeNumberGeneratorImpl(functions.get(f));
+                    Function func = functions.get(f);
+                    System.out.println("Using function " + func.getClass().getName());
+                    pm = new PrimeNumberGeneratorImpl(func);
                     params.remove(f);
+                    ((ArrayList<String>) params).trimToSize();
                 }
             }
             int int1 = Integer.valueOf(params.get(0));
             int int2 = Integer.valueOf(params.get(1));
-            pm.generate(Integer.valueOf(args[0]), Integer.valueOf(args[1]))
+            pm.generate(int1, int2)
                     .forEach(p -> System.out.println(p));
             System.out.println("Done");
 
