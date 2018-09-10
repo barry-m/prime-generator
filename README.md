@@ -1,5 +1,13 @@
 ### Prime Number Generator Coding Exercise
 
+## Build
+mvn clean package
+
+## Run
+java -cp target/prime-generator-1.0.jar int int
+
+## For help<br>
+java -cp target/prime-generator-1.0.jar
 
 #### Overview:
 <p>
@@ -32,3 +40,4 @@ In mathematics, a prime number (or a prime) is a natural number which has exactl
 two distinct natural number divisors: 1 and itself. The first twenty-six prime numbers are:
 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89,
 97, 101
+
